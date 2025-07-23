@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #define SIZE 4
-//Them canh vao do thi
+
 void addEdge(int graph[SIZE][SIZE], int firstNode, int secondNode) {
     graph[firstNode][secondNode] = 1;
     graph[secondNode][firstNode] = 1;
